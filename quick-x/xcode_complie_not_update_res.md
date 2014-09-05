@@ -19,6 +19,5 @@
 	cp -RLp $PWD/../res/* $_TARGET_BUILD_CONTENTS_PATH/res/
 	cp -RLp $PWD/../scripts/* $_TARGET_BUILD_CONTENTS_PATH/scripts/
 
-
 	find "${_TARGET_BUILD_CONTENTS_PATH}/res" \( -name ".svn" -o -name ".DS_Store" \) -exec  rm -rf {} \; -prune
 	find "${_TARGET_BUILD_CONTENTS_PATH}/scripts" \( -name ".svn" -o -name ".DS_Store" \) -exec rm -rf {} \; -prune
